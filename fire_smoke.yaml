@@ -1,0 +1,13 @@
+train: images/train
+val: images/val
+
+names:
+  0: smoke
+  1: fire
+
+augment: True
+hsv_h: 0.015  # Цветовой тон
+hsv_s: 0.7    # Насыщенность
+hsv_v: 0.4    # Яркость
+degrees: 45    # Поворот
+mixup: 0.5     # Микширование изображений
